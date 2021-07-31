@@ -1,1 +1,0 @@
-# Pratica De Funcao
