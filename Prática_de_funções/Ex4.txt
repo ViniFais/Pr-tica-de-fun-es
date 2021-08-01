@@ -1,0 +1,14 @@
+//4. Faça uma função que leia um número não determinado de valores positivos e retorna a 
+média aritmética dos mesmos.
+
+void main() {
+    mediaAritmetica(10, 2.5, 30, 40, 5);
+  }
+
+
+ double mediaAritmetica(int n1, n2, n3, n4, n5){
+ var somar =  n1 + n2 + n3 + n4 + n5;
+ double dividir = somar / 5; 
+   print(dividir);
+   return dividir;
+  }

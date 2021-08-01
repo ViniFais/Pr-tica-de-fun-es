@@ -1,0 +1,14 @@
+//5. Escreva uma função que recebe, por parâmetro, receba 2 valores inteiros e positivo e retorna o 
+somatório desse valor.
+
+void main() {
+    somarNumeros(100, 100);
+  }
+
+
+ num somarNumeros(int n1, n2){ 
+   num soma = n1 + n2;
+    print(soma);
+   return soma;
+ 
+ }

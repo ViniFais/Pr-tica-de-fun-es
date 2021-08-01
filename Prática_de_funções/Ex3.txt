@@ -1,0 +1,17 @@
+//3. Faça uma função que recebe um valor inteiro e verifica se o valor é positivo ou negativo. A 
+função deve retornar um valor booleano.
+
+void main() {
+    inteiro(10);
+  }
+
+int a = 2;
+
+  
+void inteiro(int n1){
+    if(n1 > 0){
+      return print("Verdadeiro");
+    }else{
+      return print("Falso");
+    }
+  }

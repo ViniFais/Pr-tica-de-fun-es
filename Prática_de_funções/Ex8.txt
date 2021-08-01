@@ -1,0 +1,36 @@
+//8. Fazer um programa que receba 2 números e informe:
+//  a) A soma dos números;
+//  b) O produto do primeiro número pelo quadrado do segundo;
+//  c) O quadrado do primeiro número;
+//  d) O triplo do dobro da soma dos dois números
+//  e) A metade do triplo do dobro da soma dos dois números
+//  f) O módulo do primeiro número.
+
+void main() {
+   return calNum(2, 5);
+  }
+
+void calNum(int n1, n2){
+  int a = n1;
+  int b = n2;
+  
+  num c = n1 + n2;
+  print("A soma dos numeros é: $c");
+  
+  num produto = n1 * (n2 * n2);
+  print("O produto do primeiro pelo quadrado do segundo é: $produto");
+ 
+  num quadrado = n1 * n1;
+  print("O quadrado do primeiro numeoro é: $quadrado");
+
+  num dobro = c * c;
+  num triplo = dobro * dobro * dobro * dobro;
+  print("O triplo do dobro da soma dos dois números: $triplo");
+  
+  num metade = triplo / 2;
+  print("A metade do triplo do dobro da soma dos dois números: $metade");
+  
+  num modulo = n1;
+  print("O módulo do primeiro número: $modulo");
+
+}

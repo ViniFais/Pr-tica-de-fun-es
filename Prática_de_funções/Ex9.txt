@@ -1,0 +1,40 @@
+//9- Faça um programa que leia dois valores e imprima:
+//A) Se o primeiro valor for maior que o segundo, a lista de valores do primeiro até
+//o segundo:
+void main() {
+   return calNum(10, 1);
+  }
+void calNum(int n1, n2){
+    for(int n = n1; n >= n2; n--){
+      print(n);
+    }
+ 
+  }
+
+//B) Se o primeiro valor for menor que o segundo a lista de valores do segundo até
+//o primeiro em ordem decrescente:
+void main() {
+   return calNum(1, 10);
+  }
+
+void calNum(int n1, n2){
+    for(int n = n2; n >= n1; n--){
+      print(n);
+    }
+ 
+  }
+
+//C) Se ambos forem iguais a mensagem "valores iguais":
+void main() {
+   return calNum(10, 10);
+  }
+
+void calNum(int n1, n2){
+    if(n1 == n2){
+      print("Valores Iguais");
+    }else{
+      print("Valores Diferentes");
+    }
+  
+}
+

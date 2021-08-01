@@ -1,0 +1,18 @@
+//7. Faça uma função que recebe um valor inteiro e verifica se o valor é par. A função deve 
+retornar 1 se o número for par e 0 se for ímpar
+
+void main() {
+   return parSoma(1);
+  }
+
+void parSoma(int n1){
+  
+  int a = n1;
+  int b = 2;
+  double c = n1 % 2 ;
+  if(c == 0){
+    print("1");
+  }else{
+    print("0");
+  }
+}

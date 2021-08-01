@@ -1,0 +1,19 @@
+
+//1. Escreva uma função que receba dois números inteiros retorne o menor número.
+
+ void main(){
+   
+    compararNumeros(10, 20);
+   
+  }
+
+   void compararNumeros(int n1, int n2){
+   
+     if(n1 < n2){
+       return print("O numero $n1 é menor que o numero $n2");
+     }else{
+       return print("O numero $n2 é menor que o numero $n1");
+     }
+     
+   }
+   
